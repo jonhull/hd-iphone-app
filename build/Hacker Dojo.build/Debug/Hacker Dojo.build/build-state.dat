@@ -1,0 +1,380 @@
+THacker Dojo
+v7
+r1
+cCheck dependencies
+
+N/Users/jon/Projects/Hacker Dojo (v2)/../Adventure Engine/BlueBackground.png
+c000000004BF25D4B00000000000017FF
+t1274174795
+s6143
+
+N/Users/jon/Projects/Hacker Dojo (v2)/Classes/EventDetailView.xib
+c000000004D2D59010000000000003A6D
+t1294817537
+s14957
+
+N/Users/jon/Projects/Hacker Dojo (v2)/Classes/EventStaffViewController.xib
+c000000004CF72A2F0000000000001D71
+t1291266607
+s7537
+
+N/Users/jon/Projects/Hacker Dojo (v2)/Classes/MapViewController.xib
+c000000004CF762F90000000000001F97
+t1291281145
+s8087
+
+N/Users/jon/Projects/Hacker Dojo (v2)/Classes/Pull To Refresh/arrow.png
+c000000004C6F2A620000000000000F9E
+t1282353762
+s3998
+
+N/Users/jon/Projects/Hacker Dojo (v2)/Classes/SettingsViewController.xib
+c000000004CF34A6A0000000000004B13
+t1291012714
+s19219
+
+N/Users/jon/Projects/Hacker Dojo (v2)/Dojo-Map.png
+c000000004CF7047A0000000000008BEA
+t1291256954
+s35818
+
+N/Users/jon/Projects/Hacker Dojo (v2)/build/Debug/Hacker Dojo.app
+t2
+s0
+
+N/Users/jon/Projects/Hacker Dojo (v2)/build/Debug/Hacker Dojo.app/Contents/Info.plist
+t2
+s0
+
+N/Users/jon/Projects/Hacker Dojo (v2)/build/Debug/Hacker Dojo.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/jon/Projects/Hacker Dojo (v2)/build/Debug/Hacker Dojo.app/Contents/Resources/BlueBackground.png
+t2
+s0
+
+N/Users/jon/Projects/Hacker Dojo (v2)/build/Debug/Hacker Dojo.app/Contents/Resources/Dojo-Map.png
+t2
+s0
+
+N/Users/jon/Projects/Hacker Dojo (v2)/build/Debug/Hacker Dojo.app/Contents/Resources/Dollar.png
+t2
+s0
+
+N/Users/jon/Projects/Hacker Dojo (v2)/build/Debug/Hacker Dojo.app/Contents/Resources/Error.png
+t2
+s0
+
+N/Users/jon/Projects/Hacker Dojo (v2)/build/Debug/Hacker Dojo.app/Contents/Resources/EventDetailView.nib
+t2
+s0
+
+N/Users/jon/Projects/Hacker Dojo (v2)/build/Debug/Hacker Dojo.app/Contents/Resources/EventStaffViewController.nib
+t2
+s0
+
+N/Users/jon/Projects/Hacker Dojo (v2)/build/Debug/Hacker Dojo.app/Contents/Resources/MapViewController.nib
+t2
+s0
+
+N/Users/jon/Projects/Hacker Dojo (v2)/build/Debug/Hacker Dojo.app/Contents/Resources/RSVP.png
+t2
+s0
+
+N/Users/jon/Projects/Hacker Dojo (v2)/build/Debug/Hacker Dojo.app/Contents/Resources/SettingsViewController.nib
+t2
+s0
+
+N/Users/jon/Projects/Hacker Dojo (v2)/build/Debug/Hacker Dojo.app/Contents/Resources/alarm.png
+t2
+s0
+
+N/Users/jon/Projects/Hacker Dojo (v2)/build/Debug/Hacker Dojo.app/Contents/Resources/arrow.png
+t2
+s0
+
+N/Users/jon/Projects/Hacker Dojo (v2)/build/Debug/Hacker Dojo.app/Contents/Resources/chat.png
+t2
+s0
+
+N/Users/jon/Projects/Hacker Dojo (v2)/build/Debug/Hacker Dojo.app/Contents/Resources/clock.png
+t2
+s0
+
+N/Users/jon/Projects/Hacker Dojo (v2)/build/Debug/Hacker Dojo.app/Contents/Resources/crop3.png
+t2
+s0
+
+N/Users/jon/Projects/Hacker Dojo (v2)/build/Debug/Hacker Dojo.app/Contents/Resources/en.lproj/EventView.nib
+t2
+s0
+
+N/Users/jon/Projects/Hacker Dojo (v2)/build/Debug/Hacker Dojo.app/Contents/Resources/en.lproj/FirstView.nib
+t2
+s0
+
+N/Users/jon/Projects/Hacker Dojo (v2)/build/Debug/Hacker Dojo.app/Contents/Resources/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/jon/Projects/Hacker Dojo (v2)/build/Debug/Hacker Dojo.app/Contents/Resources/en.lproj/MainWindow.nib
+t2
+s0
+
+N/Users/jon/Projects/Hacker Dojo (v2)/build/Debug/Hacker Dojo.app/Contents/Resources/hackerdojo logo iPhone.png
+t2
+s0
+
+N/Users/jon/Projects/Hacker Dojo (v2)/build/Debug/Hacker Dojo.app/Contents/Resources/hackerdojo logo iPhone2.png
+t2
+s0
+
+N/Users/jon/Projects/Hacker Dojo (v2)/build/Debug/Hacker Dojo.app/Contents/Resources/icon.png
+t2
+s0
+
+N/Users/jon/Projects/Hacker Dojo (v2)/build/Debug/Hacker Dojo.app/Contents/Resources/map-pin.png
+t2
+s0
+
+N/Users/jon/Projects/Hacker Dojo (v2)/build/Debug/Hacker Dojo.app/Contents/Resources/noEvents.png
+t2
+s0
+
+N/Users/jon/Projects/Hacker Dojo (v2)/build/Debug/Hacker Dojo.app/Contents/Resources/noStaff.png
+t2
+s0
+
+N/Users/jon/Projects/Hacker Dojo (v2)/build/Debug/Hacker Dojo.app/Contents/Resources/refreshIcon.png
+t2
+s0
+
+N/Users/jon/Projects/Hacker Dojo (v2)/build/Debug/Hacker Dojo.app/Contents/Resources/refreshSelected.png
+t2
+s0
+
+N/Users/jon/Projects/Hacker Dojo (v2)/build/Debug/Hacker Dojo.app/Contents/Resources/smallDollar.png
+t2
+s0
+
+N/Users/jon/Projects/Hacker Dojo (v2)/build/Debug/Hacker Dojo.app/Contents/Resources/smallPerson.png
+t2
+s0
+
+N/Users/jon/Projects/Hacker Dojo (v2)/build/Debug/Hacker Dojo.app/Contents/Resources/tab_bar_agenda.png
+t2
+s0
+
+N/Users/jon/Projects/Hacker Dojo (v2)/en.lproj/EventView.xib
+c000000004CF345040000000000003888
+t1291011332
+s14472
+
+N/Users/jon/Projects/Hacker Dojo (v2)/en.lproj/FirstView.xib
+c000000004CF341790000000000002305
+t1291010425
+s8965
+
+N/Users/jon/Projects/Hacker Dojo (v2)/en.lproj/InfoPlist.strings
+c000000004CE419280000000000000066
+t1290017064
+s102
+
+N/Users/jon/Projects/Hacker Dojo (v2)/en.lproj/MainWindow.xib
+c000000004CF32B780000000000005E18
+t1291004792
+s24088
+
+N/Users/jon/Projects/Hacker Dojo (v2)/icon.png
+c000000004B235AFB000000000000045B
+t1260608251
+s1115
+
+N/Users/jon/Projects/Hacker Dojo (v2)/icons/Dollar.png
+c000000004CEAD8260000000000000158
+t1290459174
+s344
+
+N/Users/jon/Projects/Hacker Dojo (v2)/icons/Error.png
+c000000004B2A2DD60000000000000C39
+t1261055446
+s3129
+
+N/Users/jon/Projects/Hacker Dojo (v2)/icons/RSVP.png
+c000000004CEB42D00000000000000230
+t1290486480
+s560
+
+N/Users/jon/Projects/Hacker Dojo (v2)/icons/alarm.png
+c000000004CF04977000000000000032F
+t1290815863
+s815
+
+N/Users/jon/Projects/Hacker Dojo (v2)/icons/chat.png
+c000000004A88FCE000000000000000AB
+t1250491616
+s171
+
+N/Users/jon/Projects/Hacker Dojo (v2)/icons/clock.png
+c000000004A88FCDA0000000000000122
+t1250491610
+s290
+
+N/Users/jon/Projects/Hacker Dojo (v2)/icons/crop3.png
+c000000004B236B4B0000000000000C01
+t1260612427
+s3073
+
+N/Users/jon/Projects/Hacker Dojo (v2)/icons/hackerdojo logo iPhone.png
+c000000004B223B190000000000000FAC
+t1260534553
+s4012
+
+N/Users/jon/Projects/Hacker Dojo (v2)/icons/hackerdojo logo iPhone2.png
+c000000004B22448A0000000000001038
+t1260536970
+s4152
+
+N/Users/jon/Projects/Hacker Dojo (v2)/icons/map-pin.png
+c000000004CEB2E050000000000000101
+t1290481157
+s257
+
+N/Users/jon/Projects/Hacker Dojo (v2)/icons/noEvents.png
+c000000004CEC5767000000000000026F
+t1290557287
+s623
+
+N/Users/jon/Projects/Hacker Dojo (v2)/icons/noStaff.png
+c000000004B28FB620000000000000C51
+t1260976994
+s3153
+
+N/Users/jon/Projects/Hacker Dojo (v2)/icons/refreshIcon.png
+c000000004B2A2E300000000000000D8E
+t1261055536
+s3470
+
+N/Users/jon/Projects/Hacker Dojo (v2)/icons/refreshSelected.png
+c000000004B2A29090000000000000D96
+t1261054217
+s3478
+
+N/Users/jon/Projects/Hacker Dojo (v2)/icons/smallDollar.png
+c000000004CEB2EAA0000000000000120
+t1290481322
+s288
+
+N/Users/jon/Projects/Hacker Dojo (v2)/icons/smallPerson.png
+c000000004CEB32760000000000000270
+t1290482294
+s624
+
+N/Users/jon/Projects/Hacker Dojo (v2)/icons/tab_bar_agenda.png
+c000000004B2486B70000000000000118
+t1260684983
+s280
+
+NHacker_Dojo-Info.plist
+c000000004CE42F8900000000000003DA
+t1290022793
+s986
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies319867632#319867632#0(63"[BEROR]error: There is no SDK with the name or path 'iphoneos'1(4@55"error: There is no SDK with the name or path 'iphoneos'319867632#18446744073709551615#0#0(1@0"0(0#1#0"31244212048494624#0"0#
+
+CCompileXIB "/Users/jon/Projects/Hacker Dojo (v2)/Classes/EventDetailView.xib"
+r0
+
+CCompileXIB "/Users/jon/Projects/Hacker Dojo (v2)/Classes/EventStaffViewController.xib"
+r0
+
+CCompileXIB "/Users/jon/Projects/Hacker Dojo (v2)/Classes/MapViewController.xib"
+r0
+
+CCompileXIB "/Users/jon/Projects/Hacker Dojo (v2)/Classes/SettingsViewController.xib"
+r0
+
+CCompileXIB "/Users/jon/Projects/Hacker Dojo (v2)/en.lproj/EventView.xib"
+r0
+
+CCompileXIB "/Users/jon/Projects/Hacker Dojo (v2)/en.lproj/FirstView.xib"
+r0
+
+CCompileXIB "/Users/jon/Projects/Hacker Dojo (v2)/en.lproj/MainWindow.xib"
+r0
+
+CCopyStringsFile "/Users/jon/Projects/Hacker Dojo (v2)/build/Debug/Hacker Dojo.app/Contents/Resources/en.lproj/InfoPlist.strings" en.lproj/InfoPlist.strings
+r0
+
+CCpResource "build/Debug/Hacker Dojo.app/Contents/Resources/BlueBackground.png" "../Adventure Engine/BlueBackground.png"
+r0
+
+CCpResource "build/Debug/Hacker Dojo.app/Contents/Resources/Dojo-Map.png" Dojo-Map.png
+r0
+
+CCpResource "build/Debug/Hacker Dojo.app/Contents/Resources/Dollar.png" icons/Dollar.png
+r0
+
+CCpResource "build/Debug/Hacker Dojo.app/Contents/Resources/Error.png" icons/Error.png
+r0
+
+CCpResource "build/Debug/Hacker Dojo.app/Contents/Resources/RSVP.png" icons/RSVP.png
+r0
+
+CCpResource "build/Debug/Hacker Dojo.app/Contents/Resources/alarm.png" icons/alarm.png
+r0
+
+CCpResource "build/Debug/Hacker Dojo.app/Contents/Resources/arrow.png" "Classes/Pull To Refresh/arrow.png"
+r0
+
+CCpResource "build/Debug/Hacker Dojo.app/Contents/Resources/chat.png" icons/chat.png
+r0
+
+CCpResource "build/Debug/Hacker Dojo.app/Contents/Resources/clock.png" icons/clock.png
+r0
+
+CCpResource "build/Debug/Hacker Dojo.app/Contents/Resources/crop3.png" icons/crop3.png
+r0
+
+CCpResource "build/Debug/Hacker Dojo.app/Contents/Resources/hackerdojo logo iPhone.png" "icons/hackerdojo logo iPhone.png"
+r0
+
+CCpResource "build/Debug/Hacker Dojo.app/Contents/Resources/hackerdojo logo iPhone2.png" "icons/hackerdojo logo iPhone2.png"
+r0
+
+CCpResource "build/Debug/Hacker Dojo.app/Contents/Resources/icon.png" icon.png
+r0
+
+CCpResource "build/Debug/Hacker Dojo.app/Contents/Resources/map-pin.png" icons/map-pin.png
+r0
+
+CCpResource "build/Debug/Hacker Dojo.app/Contents/Resources/noEvents.png" icons/noEvents.png
+r0
+
+CCpResource "build/Debug/Hacker Dojo.app/Contents/Resources/noStaff.png" icons/noStaff.png
+r0
+
+CCpResource "build/Debug/Hacker Dojo.app/Contents/Resources/refreshIcon.png" icons/refreshIcon.png
+r0
+
+CCpResource "build/Debug/Hacker Dojo.app/Contents/Resources/refreshSelected.png" icons/refreshSelected.png
+r0
+
+CCpResource "build/Debug/Hacker Dojo.app/Contents/Resources/smallDollar.png" icons/smallDollar.png
+r0
+
+CCpResource "build/Debug/Hacker Dojo.app/Contents/Resources/smallPerson.png" icons/smallPerson.png
+r0
+
+CCpResource "build/Debug/Hacker Dojo.app/Contents/Resources/tab_bar_agenda.png" icons/tab_bar_agenda.png
+r0
+
+CProcessInfoPlistFile "/Users/jon/Projects/Hacker Dojo (v2)/build/Debug/Hacker Dojo.app/Contents/Info.plist" Hacker_Dojo-Info.plist
+r0
+
+CTouch "/Users/jon/Projects/Hacker Dojo (v2)/build/Debug/Hacker Dojo.app"
+r0
+

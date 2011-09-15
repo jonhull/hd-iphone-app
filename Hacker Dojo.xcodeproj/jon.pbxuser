@@ -1,0 +1,88 @@
+// !$*UTF8*$!
+{
+	FC6C2860129450A80079E069 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = FC85950C12945B6500F3C44F /* Hacker Dojo */;
+		activeTarget = FC6C286C129450A80079E069 /* Hacker Dojo */;
+		codeSenseManager = FC85951912945B7400F3C44F /* Code sense */;
+		executables = (
+			FC85950C12945B6500F3C44F /* Hacker Dojo */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 319867574;
+			PBXWorkspaceStateSaveDate = 319867574;
+		};
+		sourceControlManager = FC85951812945B7400F3C44F /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	FC6C286C129450A80079E069 /* Hacker Dojo */ = {
+		activeExec = 0;
+		executables = (
+			FC85950C12945B6500F3C44F /* Hacker Dojo */,
+		);
+	};
+	FC85950C12945B6500F3C44F /* Hacker Dojo */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "Hacker Dojo";
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	FC85951812945B7400F3C44F /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	FC85951912945B7400F3C44F /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+}

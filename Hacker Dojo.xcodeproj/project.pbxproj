@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC3BA986129531F900CCEA0D /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3BA984129531F900CCEA0D /* SettingsViewController.m */; };
+		FC3BA987129531F900CCEA0D /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC3BA985129531F900CCEA0D /* SettingsViewController.xib */; };
+		FC3DA21712A73DB200180210 /* Dojo-Map.png in Resources */ = {isa = PBXBuildFile; fileRef = FC3DA21612A73DB200180210 /* Dojo-Map.png */; };
+		FC3DA22012A7507800180210 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3DA21E12A7507800180210 /* MapViewController.m */; };
+		FC3DA22112A7507800180210 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC3DA21F12A7507800180210 /* MapViewController.xib */; };
+		FC4498A4129505B800820916 /* hackerdojo logo iPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = FC4498A2129505B800820916 /* hackerdojo logo iPhone.png */; };
+		FC4498A5129505B800820916 /* hackerdojo logo iPhone2.png in Resources */ = {isa = PBXBuildFile; fileRef = FC4498A3129505B800820916 /* hackerdojo logo iPhone2.png */; };
+		FC4498A7129505BC00820916 /* crop3.png in Resources */ = {isa = PBXBuildFile; fileRef = FC4498A6129505BC00820916 /* crop3.png */; };
+		FC4498B412950D9900820916 /* noStaff.png in Resources */ = {isa = PBXBuildFile; fileRef = FC4498B312950D9900820916 /* noStaff.png */; };
+		FC4498BD12950F6F00820916 /* Error.png in Resources */ = {isa = PBXBuildFile; fileRef = FC4498BC12950F6F00820916 /* Error.png */; };
+		FC4498C012950F8300820916 /* refreshIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = FC4498BE12950F8300820916 /* refreshIcon.png */; };
+		FC4498C112950F8300820916 /* refreshSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = FC4498BF12950F8300820916 /* refreshSelected.png */; };
+		FC4498E412952E4700820916 /* tab_bar_agenda.png in Resources */ = {isa = PBXBuildFile; fileRef = FC4498E312952E4700820916 /* tab_bar_agenda.png */; };
+		FC4752F91299D3DD0070C414 /* EventTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4752F81299D3DD0070C414 /* EventTableViewCell.m */; };
+		FC47531F129AC0670070C414 /* EventDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC47531D129AC0670070C414 /* EventDetailViewController.m */; };
+		FC475320129AC0670070C414 /* EventDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC47531E129AC0670070C414 /* EventDetailView.xib */; };
+		FC475388129B08120070C414 /* clock.png in Resources */ = {isa = PBXBuildFile; fileRef = FC475387129B08120070C414 /* clock.png */; };
+		FC475396129B0FB10070C414 /* Dollar.png in Resources */ = {isa = PBXBuildFile; fileRef = FC475395129B0FB10070C414 /* Dollar.png */; };
+		FC4753FB129B65360070C414 /* map-pin.png in Resources */ = {isa = PBXBuildFile; fileRef = FC4753FA129B65360070C414 /* map-pin.png */; };
+		FC4753FF129B663A0070C414 /* smallDollar.png in Resources */ = {isa = PBXBuildFile; fileRef = FC4753FE129B663A0070C414 /* smallDollar.png */; };
+		FC47540A129B6A040070C414 /* smallPerson.png in Resources */ = {isa = PBXBuildFile; fileRef = FC475409129B6A040070C414 /* smallPerson.png */; };
+		FC475417129B756F0070C414 /* RSVP.png in Resources */ = {isa = PBXBuildFile; fileRef = FC475416129B756F0070C414 /* RSVP.png */; };
+		FC5E138A129C87EC0014D616 /* chat.png in Resources */ = {isa = PBXBuildFile; fileRef = FC5E1389129C87EC0014D616 /* chat.png */; };
+		FC5E1392129C8CF70014D616 /* noEvents.png in Resources */ = {isa = PBXBuildFile; fileRef = FC5E1391129C8CF70014D616 /* noEvents.png */; };
+		FC6C2871129450A80079E069 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC6C2870129450A80079E069 /* UIKit.framework */; };
+		FC6C2873129450A80079E069 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC6C2872129450A80079E069 /* Foundation.framework */; };
+		FC6C2875129450A80079E069 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC6C2874129450A80079E069 /* CoreGraphics.framework */; };
+		FC6C287A129450A80079E069 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC6C2878129450A80079E069 /* InfoPlist.strings */; };
+		FC6C287C129450A80079E069 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6C287B129450A80079E069 /* main.m */; };
+		FC6C287F129450A80079E069 /* Hacker_DojoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6C287E129450A80079E069 /* Hacker_DojoAppDelegate.m */; };
+		FC6C2882129450A80079E069 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC6C2880129450A80079E069 /* MainWindow.xib */; };
+		FC6C2885129450A80079E069 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6C2884129450A80079E069 /* FirstViewController.m */; };
+		FC6C2888129450A80079E069 /* EventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6C2887129450A80079E069 /* EventViewController.m */; };
+		FC6C288B129450A80079E069 /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC6C2889129450A80079E069 /* FirstView.xib */; };
+		FC6C288E129450A80079E069 /* EventView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC6C288C129450A80079E069 /* EventView.xib */; };
+		FC730E6612955DF900256ECB /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = FC730E6512955DF900256ECB /* Event.m */; };
+		FC730E6912955E2900256ECB /* EventList.m in Sources */ = {isa = PBXBuildFile; fileRef = FC730E6812955E2900256ECB /* EventList.m */; };
+		FCB5693112946284002A3F84 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FCB5693012946284002A3F84 /* icon.png */; };
+		FCB56955129467E8002A3F84 /* ABTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB56954129467E8002A3F84 /* ABTableViewCell.m */; };
+		FCB569591294690B002A3F84 /* LoadingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB569581294690B002A3F84 /* LoadingTableViewCell.m */; };
+		FCB5696B12946FD3002A3F84 /* Staff.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB5696A12946FD3002A3F84 /* Staff.m */; };
+		FCB5696F129470B3002A3F84 /* StaffList.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB5696E129470B3002A3F84 /* StaffList.m */; };
+		FCB56972129470EA002A3F84 /* StaffTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB56971129470EA002A3F84 /* StaffTableViewCell.m */; };
+		FCB5699812947223002A3F84 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB5698D12947223002A3F84 /* NSObject+SBJSON.m */; };
+		FCB5699912947223002A3F84 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB5698F12947223002A3F84 /* NSString+SBJSON.m */; };
+		FCB5699A12947223002A3F84 /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB5699112947223002A3F84 /* SBJSON.m */; };
+		FCB5699B12947223002A3F84 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB5699312947223002A3F84 /* SBJsonBase.m */; };
+		FCB5699C12947223002A3F84 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB5699512947223002A3F84 /* SBJsonParser.m */; };
+		FCB5699D12947223002A3F84 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB5699712947223002A3F84 /* SBJsonWriter.m */; };
+		FCB6004512A75E8100A339FA /* EventStaffViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB6004312A75E8100A339FA /* EventStaffViewController.m */; };
+		FCB6004612A75E8100A339FA /* EventStaffViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCB6004412A75E8100A339FA /* EventStaffViewController.xib */; };
+		FCBED56312A375F8004F4447 /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = FCBED56012A375F8004F4447 /* arrow.png */; };
+		FCBED56412A375F8004F4447 /* PullRefreshTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCBED56212A375F8004F4447 /* PullRefreshTableViewController.m */; };
+		FCBED56612A37635004F4447 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCBED56512A37635004F4447 /* QuartzCore.framework */; };
+		FCE4A042129D995D00B50CC7 /* BlueBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = FCE4A041129D995D00B50CC7 /* BlueBackground.png */; };
+		FCE4A0F412A0810C00B50CC7 /* alarm.png in Resources */ = {isa = PBXBuildFile; fileRef = FCE4A0F312A0810C00B50CC7 /* alarm.png */; };
+		FCE4A14F12A1ABF900B50CC7 /* JONListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCE4A14E12A1ABF900B50CC7 /* JONListViewController.m */; };
+		FCE4A17412A2038F00B50CC7 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCE4A17312A2038F00B50CC7 /* EventKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FC3BA983129531F900CCEA0D /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		FC3BA984129531F900CCEA0D /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		FC3BA985129531F900CCEA0D /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SettingsViewController.xib; path = Classes/SettingsViewController.xib; sourceTree = "<group>"; };
+		FC3DA21612A73DB200180210 /* Dojo-Map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Dojo-Map.png"; sourceTree = "<group>"; };
+		FC3DA21D12A7507800180210 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		FC3DA21E12A7507800180210 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		FC3DA21F12A7507800180210 /* MapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MapViewController.xib; path = Classes/MapViewController.xib; sourceTree = "<group>"; };
+		FC4498A2129505B800820916 /* hackerdojo logo iPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "hackerdojo logo iPhone.png"; path = "icons/hackerdojo logo iPhone.png"; sourceTree = "<group>"; };
+		FC4498A3129505B800820916 /* hackerdojo logo iPhone2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "hackerdojo logo iPhone2.png"; path = "icons/hackerdojo logo iPhone2.png"; sourceTree = "<group>"; };
+		FC4498A6129505BC00820916 /* crop3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = crop3.png; path = icons/crop3.png; sourceTree = "<group>"; };
+		FC4498B312950D9900820916 /* noStaff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = noStaff.png; path = icons/noStaff.png; sourceTree = "<group>"; };
+		FC4498BC12950F6F00820916 /* Error.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Error.png; path = icons/Error.png; sourceTree = "<group>"; };
+		FC4498BE12950F8300820916 /* refreshIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = refreshIcon.png; path = icons/refreshIcon.png; sourceTree = "<group>"; };
+		FC4498BF12950F8300820916 /* refreshSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = refreshSelected.png; path = icons/refreshSelected.png; sourceTree = "<group>"; };
+		FC4498E312952E4700820916 /* tab_bar_agenda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tab_bar_agenda.png; path = icons/tab_bar_agenda.png; sourceTree = "<group>"; };
+		FC4752F71299D3DD0070C414 /* EventTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EventTableViewCell.h; path = TableViewCells/EventTableViewCell.h; sourceTree = "<group>"; };
+		FC4752F81299D3DD0070C414 /* EventTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EventTableViewCell.m; path = TableViewCells/EventTableViewCell.m; sourceTree = "<group>"; };
+		FC47531C129AC0670070C414 /* EventDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventDetailViewController.h; sourceTree = "<group>"; };
+		FC47531D129AC0670070C414 /* EventDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventDetailViewController.m; sourceTree = "<group>"; };
+		FC47531E129AC0670070C414 /* EventDetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EventDetailView.xib; path = Classes/EventDetailView.xib; sourceTree = "<group>"; };
+		FC475387129B08120070C414 /* clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = clock.png; path = icons/clock.png; sourceTree = "<group>"; };
+		FC475395129B0FB10070C414 /* Dollar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Dollar.png; path = icons/Dollar.png; sourceTree = "<group>"; };
+		FC4753FA129B65360070C414 /* map-pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "map-pin.png"; path = "icons/map-pin.png"; sourceTree = "<group>"; };
+		FC4753FE129B663A0070C414 /* smallDollar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = smallDollar.png; path = icons/smallDollar.png; sourceTree = "<group>"; };
+		FC475409129B6A040070C414 /* smallPerson.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = smallPerson.png; path = icons/smallPerson.png; sourceTree = "<group>"; };
+		FC475416129B756F0070C414 /* RSVP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RSVP.png; path = icons/RSVP.png; sourceTree = "<group>"; };
+		FC5E1389129C87EC0014D616 /* chat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chat.png; path = icons/chat.png; sourceTree = "<group>"; };
+		FC5E1391129C8CF70014D616 /* noEvents.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = noEvents.png; path = icons/noEvents.png; sourceTree = "<group>"; };
+		FC6C286D129450A80079E069 /* Hacker Dojo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hacker Dojo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC6C2870129450A80079E069 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FC6C2872129450A80079E069 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FC6C2874129450A80079E069 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FC6C2876129450A80079E069 /* Hacker_Dojo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Hacker_Dojo-Info.plist"; sourceTree = "<group>"; };
+		FC6C2877129450A80079E069 /* Hacker_Dojo_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Hacker_Dojo_Prefix.pch; sourceTree = "<group>"; };
+		FC6C2879129450A80079E069 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FC6C287B129450A80079E069 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC6C287D129450A80079E069 /* Hacker_DojoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Hacker_DojoAppDelegate.h; sourceTree = "<group>"; };
+		FC6C287E129450A80079E069 /* Hacker_DojoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hacker_DojoAppDelegate.m; sourceTree = "<group>"; };
+		FC6C2881129450A80079E069 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		FC6C2883129450A80079E069 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		FC6C2884129450A80079E069 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		FC6C2886129450A80079E069 /* EventViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EventViewController.h; sourceTree = "<group>"; };
+		FC6C2887129450A80079E069 /* EventViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EventViewController.m; sourceTree = "<group>"; };
+		FC6C288A129450A80079E069 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
+		FC6C288D129450A80079E069 /* EventView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = EventView.xib; path = en.lproj/EventView.xib; sourceTree = "<group>"; };
+		FC730E6412955DF900256ECB /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Event.h; path = Model/Event.h; sourceTree = "<group>"; };
+		FC730E6512955DF900256ECB /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Event.m; path = Model/Event.m; sourceTree = "<group>"; };
+		FC730E6712955E2900256ECB /* EventList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventList.h; sourceTree = "<group>"; };
+		FC730E6812955E2900256ECB /* EventList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventList.m; sourceTree = "<group>"; };
+		FCB5693012946284002A3F84 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		FCB56953129467E8002A3F84 /* ABTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABTableViewCell.h; sourceTree = "<group>"; };
+		FCB56954129467E8002A3F84 /* ABTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABTableViewCell.m; sourceTree = "<group>"; };
+		FCB569571294690B002A3F84 /* LoadingTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoadingTableViewCell.h; path = "../../Hacker Dojo Test/Classes/LoadingTableViewCell.h"; sourceTree = "<group>"; };
+		FCB569581294690B002A3F84 /* LoadingTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoadingTableViewCell.m; path = "../../Hacker Dojo Test/Classes/LoadingTableViewCell.m"; sourceTree = "<group>"; };
+		FCB5696912946FD3002A3F84 /* Staff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Staff.h; path = Model/Staff.h; sourceTree = "<group>"; };
+		FCB5696A12946FD3002A3F84 /* Staff.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Staff.m; path = Model/Staff.m; sourceTree = "<group>"; };
+		FCB5696D129470B3002A3F84 /* StaffList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StaffList.h; sourceTree = "<group>"; };
+		FCB5696E129470B3002A3F84 /* StaffList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StaffList.m; sourceTree = "<group>"; };
+		FCB56970129470EA002A3F84 /* StaffTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StaffTableViewCell.h; path = TableViewCells/StaffTableViewCell.h; sourceTree = "<group>"; };
+		FCB56971129470EA002A3F84 /* StaffTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StaffTableViewCell.m; path = TableViewCells/StaffTableViewCell.m; sourceTree = "<group>"; };
+		FCB5698B12947223002A3F84 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		FCB5698C12947223002A3F84 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		FCB5698D12947223002A3F84 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		FCB5698E12947223002A3F84 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		FCB5698F12947223002A3F84 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		FCB5699012947223002A3F84 /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		FCB5699112947223002A3F84 /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		FCB5699212947223002A3F84 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		FCB5699312947223002A3F84 /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		FCB5699412947223002A3F84 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		FCB5699512947223002A3F84 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		FCB5699612947223002A3F84 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		FCB5699712947223002A3F84 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		FCB6004212A75E8100A339FA /* EventStaffViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventStaffViewController.h; sourceTree = "<group>"; };
+		FCB6004312A75E8100A339FA /* EventStaffViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventStaffViewController.m; sourceTree = "<group>"; };
+		FCB6004412A75E8100A339FA /* EventStaffViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EventStaffViewController.xib; path = Classes/EventStaffViewController.xib; sourceTree = "<group>"; };
+		FCBED56012A375F8004F4447 /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
+		FCBED56112A375F8004F4447 /* PullRefreshTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PullRefreshTableViewController.h; sourceTree = "<group>"; };
+		FCBED56212A375F8004F4447 /* PullRefreshTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PullRefreshTableViewController.m; sourceTree = "<group>"; };
+		FCBED56512A37635004F4447 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QuartzCore.framework; sourceTree = "<group>"; };
+		FCE4A041129D995D00B50CC7 /* BlueBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BlueBackground.png; path = "../Adventure Engine/BlueBackground.png"; sourceTree = "<group>"; };
+		FCE4A0F312A0810C00B50CC7 /* alarm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = alarm.png; path = icons/alarm.png; sourceTree = "<group>"; };
+		FCE4A14D12A1ABF900B50CC7 /* JONListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JONListViewController.h; sourceTree = "<group>"; };
+		FCE4A14E12A1ABF900B50CC7 /* JONListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JONListViewController.m; sourceTree = "<group>"; };
+		FCE4A17312A2038F00B50CC7 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = EventKit.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC6C286A129450A80079E069 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCBED56612A37635004F4447 /* QuartzCore.framework in Frameworks */,
+				FCE4A17412A2038F00B50CC7 /* EventKit.framework in Frameworks */,
+				FC6C2871129450A80079E069 /* UIKit.framework in Frameworks */,
+				FC6C2873129450A80079E069 /* Foundation.framework in Frameworks */,
+				FC6C2875129450A80079E069 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC4498C212950F8C00820916 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				FCE4A0F312A0810C00B50CC7 /* alarm.png */,
+				FC4498A3129505B800820916 /* hackerdojo logo iPhone2.png */,
+				FC4498E312952E4700820916 /* tab_bar_agenda.png */,
+				FC4498A2129505B800820916 /* hackerdojo logo iPhone.png */,
+				FC475387129B08120070C414 /* clock.png */,
+				FC4753FA129B65360070C414 /* map-pin.png */,
+				FC475416129B756F0070C414 /* RSVP.png */,
+				FC475409129B6A040070C414 /* smallPerson.png */,
+				FC4753FE129B663A0070C414 /* smallDollar.png */,
+				FC5E1389129C87EC0014D616 /* chat.png */,
+				FC475395129B0FB10070C414 /* Dollar.png */,
+				FC5E1391129C8CF70014D616 /* noEvents.png */,
+				FCE4A041129D995D00B50CC7 /* BlueBackground.png */,
+				FC4498A6129505BC00820916 /* crop3.png */,
+				FC4498BC12950F6F00820916 /* Error.png */,
+				FC4498B312950D9900820916 /* noStaff.png */,
+				FC4498BE12950F8300820916 /* refreshIcon.png */,
+				FC4498BF12950F8300820916 /* refreshSelected.png */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
+		FC6C285E129450A80079E069 = {
+			isa = PBXGroup;
+			children = (
+				FC6C2865129450A80079E069 /* Classes */,
+				FCE4A14C12A1ABF900B50CC7 /* JONListViewController */,
+				FCB5698A12947223002A3F84 /* JSON */,
+				FCBED55F12A375F8004F4447 /* Pull To Refresh */,
+				FC6C2866129450A80079E069 /* Other Sources */,
+				FC6C2867129450A80079E069 /* Resources */,
+				FC6C2868129450A80079E069 /* Frameworks */,
+				FC6C286E129450A80079E069 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC6C2865129450A80079E069 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FC6C287D129450A80079E069 /* Hacker_DojoAppDelegate.h */,
+				FC6C287E129450A80079E069 /* Hacker_DojoAppDelegate.m */,
+				FCB5696212946D62002A3F84 /* Model */,
+				FCB5696C129470B3002A3F84 /* Model Controllers */,
+				FC6C2883129450A80079E069 /* FirstViewController.h */,
+				FC6C2884129450A80079E069 /* FirstViewController.m */,
+				FC6C2886129450A80079E069 /* EventViewController.h */,
+				FC6C2887129450A80079E069 /* EventViewController.m */,
+				FC3BA983129531F900CCEA0D /* SettingsViewController.h */,
+				FC3BA984129531F900CCEA0D /* SettingsViewController.m */,
+				FC47531C129AC0670070C414 /* EventDetailViewController.h */,
+				FC47531D129AC0670070C414 /* EventDetailViewController.m */,
+				FC3DA21D12A7507800180210 /* MapViewController.h */,
+				FC3DA21E12A7507800180210 /* MapViewController.m */,
+				FCB6004212A75E8100A339FA /* EventStaffViewController.h */,
+				FCB6004312A75E8100A339FA /* EventStaffViewController.m */,
+				FC6C28A2129451B20079E069 /* TableView Cells */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		FC6C2866129450A80079E069 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				FC6C2877129450A80079E069 /* Hacker_Dojo_Prefix.pch */,
+				FC6C287B129450A80079E069 /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		FC6C2867129450A80079E069 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FC3DA21612A73DB200180210 /* Dojo-Map.png */,
+				FC4498C212950F8C00820916 /* Icons */,
+				FC6C2876129450A80079E069 /* Hacker_Dojo-Info.plist */,
+				FCB5693012946284002A3F84 /* icon.png */,
+				FC6C2878129450A80079E069 /* InfoPlist.strings */,
+				FC6C2880129450A80079E069 /* MainWindow.xib */,
+				FC6C2889129450A80079E069 /* FirstView.xib */,
+				FC6C288C129450A80079E069 /* EventView.xib */,
+				FC3BA985129531F900CCEA0D /* SettingsViewController.xib */,
+				FC47531E129AC0670070C414 /* EventDetailView.xib */,
+				FC3DA21F12A7507800180210 /* MapViewController.xib */,
+				FCB6004412A75E8100A339FA /* EventStaffViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		FC6C2868129450A80079E069 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC6C2870129450A80079E069 /* UIKit.framework */,
+				FCE4A17312A2038F00B50CC7 /* EventKit.framework */,
+				FC6C2872129450A80079E069 /* Foundation.framework */,
+				FCBED56512A37635004F4447 /* QuartzCore.framework */,
+				FC6C2874129450A80079E069 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC6C286E129450A80079E069 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC6C286D129450A80079E069 /* Hacker Dojo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC6C28A2129451B20079E069 /* TableView Cells */ = {
+			isa = PBXGroup;
+			children = (
+				FCB56953129467E8002A3F84 /* ABTableViewCell.h */,
+				FCB56954129467E8002A3F84 /* ABTableViewCell.m */,
+				FCB569571294690B002A3F84 /* LoadingTableViewCell.h */,
+				FCB569581294690B002A3F84 /* LoadingTableViewCell.m */,
+				FCB56970129470EA002A3F84 /* StaffTableViewCell.h */,
+				FCB56971129470EA002A3F84 /* StaffTableViewCell.m */,
+				FC4752F71299D3DD0070C414 /* EventTableViewCell.h */,
+				FC4752F81299D3DD0070C414 /* EventTableViewCell.m */,
+			);
+			name = "TableView Cells";
+			sourceTree = "<group>";
+		};
+		FCB5696212946D62002A3F84 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FCB5696912946FD3002A3F84 /* Staff.h */,
+				FCB5696A12946FD3002A3F84 /* Staff.m */,
+				FC730E6412955DF900256ECB /* Event.h */,
+				FC730E6512955DF900256ECB /* Event.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		FCB5696C129470B3002A3F84 /* Model Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FCB5696D129470B3002A3F84 /* StaffList.h */,
+				FCB5696E129470B3002A3F84 /* StaffList.m */,
+				FC730E6712955E2900256ECB /* EventList.h */,
+				FC730E6812955E2900256ECB /* EventList.m */,
+			);
+			path = "Model Controllers";
+			sourceTree = "<group>";
+		};
+		FCB5698A12947223002A3F84 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				FCB5698B12947223002A3F84 /* JSON.h */,
+				FCB5698C12947223002A3F84 /* NSObject+SBJSON.h */,
+				FCB5698D12947223002A3F84 /* NSObject+SBJSON.m */,
+				FCB5698E12947223002A3F84 /* NSString+SBJSON.h */,
+				FCB5698F12947223002A3F84 /* NSString+SBJSON.m */,
+				FCB5699012947223002A3F84 /* SBJSON.h */,
+				FCB5699112947223002A3F84 /* SBJSON.m */,
+				FCB5699212947223002A3F84 /* SBJsonBase.h */,
+				FCB5699312947223002A3F84 /* SBJsonBase.m */,
+				FCB5699412947223002A3F84 /* SBJsonParser.h */,
+				FCB5699512947223002A3F84 /* SBJsonParser.m */,
+				FCB5699612947223002A3F84 /* SBJsonWriter.h */,
+				FCB5699712947223002A3F84 /* SBJsonWriter.m */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		FCBED55F12A375F8004F4447 /* Pull To Refresh */ = {
+			isa = PBXGroup;
+			children = (
+				FCBED56012A375F8004F4447 /* arrow.png */,
+				FCBED56112A375F8004F4447 /* PullRefreshTableViewController.h */,
+				FCBED56212A375F8004F4447 /* PullRefreshTableViewController.m */,
+			);
+			name = "Pull To Refresh";
+			path = "Classes/Pull To Refresh";
+			sourceTree = "<group>";
+		};
+		FCE4A14C12A1ABF900B50CC7 /* JONListViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FCE4A14D12A1ABF900B50CC7 /* JONListViewController.h */,
+				FCE4A14E12A1ABF900B50CC7 /* JONListViewController.m */,
+			);
+			name = JONListViewController;
+			path = Classes/JONListViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC6C286C129450A80079E069 /* Hacker Dojo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC6C2891129450A80079E069 /* Build configuration list for PBXNativeTarget "Hacker Dojo" */;
+			buildPhases = (
+				FC6C2869129450A80079E069 /* Sources */,
+				FC6C286A129450A80079E069 /* Frameworks */,
+				FC6C286B129450A80079E069 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hacker Dojo";
+			productName = "Hacker Dojo";
+			productReference = FC6C286D129450A80079E069 /* Hacker Dojo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC6C2860129450A80079E069 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = FC6C2863129450A80079E069 /* Build configuration list for PBXProject "Hacker Dojo" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FC6C285E129450A80079E069;
+			productRefGroup = FC6C286E129450A80079E069 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC6C286C129450A80079E069 /* Hacker Dojo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC6C286B129450A80079E069 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC6C287A129450A80079E069 /* InfoPlist.strings in Resources */,
+				FC6C2882129450A80079E069 /* MainWindow.xib in Resources */,
+				FC6C288B129450A80079E069 /* FirstView.xib in Resources */,
+				FC6C288E129450A80079E069 /* EventView.xib in Resources */,
+				FCB5693112946284002A3F84 /* icon.png in Resources */,
+				FC4498A4129505B800820916 /* hackerdojo logo iPhone.png in Resources */,
+				FC4498A5129505B800820916 /* hackerdojo logo iPhone2.png in Resources */,
+				FC4498A7129505BC00820916 /* crop3.png in Resources */,
+				FC4498B412950D9900820916 /* noStaff.png in Resources */,
+				FC4498BD12950F6F00820916 /* Error.png in Resources */,
+				FC4498C012950F8300820916 /* refreshIcon.png in Resources */,
+				FC4498C112950F8300820916 /* refreshSelected.png in Resources */,
+				FC4498E412952E4700820916 /* tab_bar_agenda.png in Resources */,
+				FC3BA987129531F900CCEA0D /* SettingsViewController.xib in Resources */,
+				FC475320129AC0670070C414 /* EventDetailView.xib in Resources */,
+				FC475388129B08120070C414 /* clock.png in Resources */,
+				FC475396129B0FB10070C414 /* Dollar.png in Resources */,
+				FC4753FB129B65360070C414 /* map-pin.png in Resources */,
+				FC4753FF129B663A0070C414 /* smallDollar.png in Resources */,
+				FC47540A129B6A040070C414 /* smallPerson.png in Resources */,
+				FC475417129B756F0070C414 /* RSVP.png in Resources */,
+				FC5E138A129C87EC0014D616 /* chat.png in Resources */,
+				FC5E1392129C8CF70014D616 /* noEvents.png in Resources */,
+				FCE4A042129D995D00B50CC7 /* BlueBackground.png in Resources */,
+				FCE4A0F412A0810C00B50CC7 /* alarm.png in Resources */,
+				FCBED56312A375F8004F4447 /* arrow.png in Resources */,
+				FC3DA21712A73DB200180210 /* Dojo-Map.png in Resources */,
+				FC3DA22112A7507800180210 /* MapViewController.xib in Resources */,
+				FCB6004612A75E8100A339FA /* EventStaffViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC6C2869129450A80079E069 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC6C287C129450A80079E069 /* main.m in Sources */,
+				FC6C287F129450A80079E069 /* Hacker_DojoAppDelegate.m in Sources */,
+				FC6C2885129450A80079E069 /* FirstViewController.m in Sources */,
+				FC6C2888129450A80079E069 /* EventViewController.m in Sources */,
+				FCB56955129467E8002A3F84 /* ABTableViewCell.m in Sources */,
+				FCB569591294690B002A3F84 /* LoadingTableViewCell.m in Sources */,
+				FCB5696B12946FD3002A3F84 /* Staff.m in Sources */,
+				FCB5696F129470B3002A3F84 /* StaffList.m in Sources */,
+				FCB56972129470EA002A3F84 /* StaffTableViewCell.m in Sources */,
+				FCB5699812947223002A3F84 /* NSObject+SBJSON.m in Sources */,
+				FCB5699912947223002A3F84 /* NSString+SBJSON.m in Sources */,
+				FCB5699A12947223002A3F84 /* SBJSON.m in Sources */,
+				FCB5699B12947223002A3F84 /* SBJsonBase.m in Sources */,
+				FCB5699C12947223002A3F84 /* SBJsonParser.m in Sources */,
+				FCB5699D12947223002A3F84 /* SBJsonWriter.m in Sources */,
+				FC3BA986129531F900CCEA0D /* SettingsViewController.m in Sources */,
+				FC730E6612955DF900256ECB /* Event.m in Sources */,
+				FC730E6912955E2900256ECB /* EventList.m in Sources */,
+				FC4752F91299D3DD0070C414 /* EventTableViewCell.m in Sources */,
+				FC47531F129AC0670070C414 /* EventDetailViewController.m in Sources */,
+				FCE4A14F12A1ABF900B50CC7 /* JONListViewController.m in Sources */,
+				FCBED56412A375F8004F4447 /* PullRefreshTableViewController.m in Sources */,
+				FC3DA22012A7507800180210 /* MapViewController.m in Sources */,
+				FCB6004512A75E8100A339FA /* EventStaffViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FC6C2878129450A80079E069 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC6C2879129450A80079E069 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FC6C2880129450A80079E069 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC6C2881129450A80079E069 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		FC6C2889129450A80079E069 /* FirstView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC6C288A129450A80079E069 /* en */,
+			);
+			name = FirstView.xib;
+			sourceTree = "<group>";
+		};
+		FC6C288C129450A80079E069 /* EventView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC6C288D129450A80079E069 /* EventView.xib */,
+			);
+			name = EventView.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC6C288F129450A80079E069 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1.3;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FC6C2890129450A80079E069 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		FC6C2892129450A80079E069 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Hacker_Dojo_Prefix.pch;
+				INFOPLIST_FILE = "Hacker_Dojo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "Hacker Dojo";
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FC6C2893129450A80079E069 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Hacker_Dojo_Prefix.pch;
+				INFOPLIST_FILE = "Hacker_Dojo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "Hacker Dojo";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC6C2863129450A80079E069 /* Build configuration list for PBXProject "Hacker Dojo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC6C288F129450A80079E069 /* Debug */,
+				FC6C2890129450A80079E069 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC6C2891129450A80079E069 /* Build configuration list for PBXNativeTarget "Hacker Dojo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC6C2892129450A80079E069 /* Debug */,
+				FC6C2893129450A80079E069 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC6C2860129450A80079E069 /* Project object */;
+}

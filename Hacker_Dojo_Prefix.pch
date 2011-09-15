@@ -1,0 +1,23 @@
+//
+// Prefix header for all source files of the 'Hacker Dojo' target in the 'Hacker Dojo' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iPhone SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif
+
+//SignIn App
+#define signInURL @"http://hackerdojo-signin.appspot.com/"
+#define signOutURL @"http://hackerdojo-signin.appspot.com/staff" 
+#define jsonURL @"http://hackerdojo-signin.appspot.com/staffjson"
+
+//Events
+#define jsonEventListURL @"http://events.hackerdojo.com/events.json"
+#define jsonEventDetailFormat @"http://events.hackerdojo.com/event/%d.json"
